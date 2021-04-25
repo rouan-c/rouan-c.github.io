@@ -5,6 +5,7 @@
 }
 .option > button {
   border-radius: 10px;
+  margin: 2px;
 }
 
 body {
