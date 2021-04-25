@@ -32,8 +32,6 @@ document.getElementById("submit").addEventListener("click", function () {
     return
   }
 
-  window.location.href = "#final"
-
   for (let i = 0; i < selected_opt_btn.length; i++) {
     selected_meal.push(selected_opt_btn[i].innerHTML)
   }
@@ -46,4 +44,6 @@ document.getElementById("submit").addEventListener("click", function () {
   const final_dom = document.getElementById("final")
   final_dom.classList.remove("d-none")
   final_dom.getElementsByTagName("h1")[0].innerHTML = final
+
+  window.location.href = "#final"
 })
