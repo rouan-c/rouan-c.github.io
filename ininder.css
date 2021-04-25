@@ -1,0 +1,8 @@
+.cate {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 3px;
+}
+.option > button {
+  border-radius: 10px;
+}
