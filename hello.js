@@ -32,6 +32,8 @@ document.getElementById("submit").addEventListener("click", function () {
     return
   }
 
+  window.location.href = "#final"
+
   for (let i = 0; i < selected_opt_btn.length; i++) {
     selected_meal.push(selected_opt_btn[i].innerHTML)
   }
