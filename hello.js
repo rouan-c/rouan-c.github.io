@@ -14,6 +14,7 @@ for (let i = 0; i < option_btn.length; i++) {
   option_btn[i].addEventListener("click", function (e) {
     console.log(e.target.classList)
 
+    e.target.blur()
     if (e.target.classList.contains("active")) {
       e.target.classList.remove("active")
     } else {
